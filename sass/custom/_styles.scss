@@ -20,3 +20,13 @@ a:hover{ color: darken(#FFD600, 1) }
 #content div.pagination a:hover{ color: darken(#FFD600, 1) }
 
 #content .blog-index article h1 a:hover{ color: darken(#FFD600, 1) }
+
+.social{
+  padding: 0.1em 0.78em;
+}
+
+.facebook{ background-image: url('/images/facebook.png'); }
+.twitter{ background-image: url('/images/twitter.png'); }
+.github{ background-image: url('/images/github.png'); }
+.linkedin{ background-image: url('/images/linkedin.png'); }
+.rss{ background-image: url('/images/rss.png'); }
