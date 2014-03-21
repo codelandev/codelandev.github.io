@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://blog.codeland.com.br/blog/2013/12/28/lorem/</loc>
+        <lastmod>2014-03-21T16:04:57-03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.codeland.com.br/blog/2014/03/21/hey/</loc>
+        <lastmod>2014-03-21T16:04:57-03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.codeland.com.br/blog/archives/</loc>
+        <lastmod>2014-03-21T17:32:24-03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.codeland.com.br/</loc>
+        <lastmod>2014-03-21T17:31:41-03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://blog.codeland.com.br/robots.txt</loc>
+        <lastmod>2014-03-21T16:04:57-03:00</lastmod>
+    </url>
+</urlset>
