@@ -1,8 +1,11 @@
 .sharing {
+  text-align: left;
+  margin-bottom: 10px;
   p.meta + & {
     padding: { top: 1em; left: 0; }
     background: $img-border top left repeat-x;
   }
+  .fb_iframe_widget{ top: -10px; }
 }
 
 #fb-root { display: none; }

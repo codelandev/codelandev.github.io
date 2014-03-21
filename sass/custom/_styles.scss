@@ -1,2 +1,22 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+body{ border-top: 8px solid #FFD600; }
+
+.blog-index{ padding-top: 0px; margin-top:0px; }
+
+#content .blog-index article, body #content>div>article { padding-top: 0; }
+
+body>header{ padding-top: 4.5em; padding-bottom: 0.5em; background-color: #FFD600}
+
+#content>div{ padding-top: 0;}
+
+body>nav{ padding-top: 0.80em; }
+
+body>nav a:hover{ color: darken(#FFD600, 1) }
+
+a:hover{ color: darken(#FFD600, 1) }
+
+#content div.pagination a:hover{ color: darken(#FFD600, 1) }
+
+#content .blog-index article h1 a:hover{ color: darken(#FFD600, 1) }

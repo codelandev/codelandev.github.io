@@ -4,10 +4,12 @@
 
 url: http://blog.codeland.com.br
 title: CODELAND
-subtitle: It's about smart learning
+subtitle:
 author: CODELAND
-simple_search: https://www.google.com/search
+simple_search:
 description: Blog da CODELAND
+
+category_title_prefix: "Categoria: " 
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
