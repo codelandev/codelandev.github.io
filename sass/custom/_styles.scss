@@ -25,6 +25,8 @@ a:hover{ color: darken(#FFD600, 1) }
 
 #blog-archives h1 a:hover{ color: darken(#FFD600, 1) }
 
+#content .blog-index a[rel=full-article]:hover{ background-color: darken(#FFD600, 1) }
+
 .social{
   padding: 0.1em 0.78em;
   text-indent: -9999px;
@@ -42,8 +44,8 @@ a:hover{ color: darken(#FFD600, 1) }
 .subscribe{
   background-color: #303030;
   border-radius: 1px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   color: white;
   p{
     color: white;
