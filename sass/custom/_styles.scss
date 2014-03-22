@@ -23,6 +23,8 @@ a:hover{ color: darken(#FFD600, 1) }
 
 .social{
   padding: 0.1em 0.78em;
+  text-indent: -9999px;
+  span{ display: none; }
 }
 
 .facebook{ background-image: url('/images/facebook.png'); }
