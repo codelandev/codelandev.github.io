@@ -7,6 +7,9 @@ single: true
 <article class="hentry" role="article">
   {% include article.html %}
   <footer>
+    <p class="meta subscribe">
+      {% include post/subscribe.html %}
+    </p>
     {% unless page.sharing == false %}
       {% include post/sharing.html %}
     {% endunless %}
@@ -23,7 +26,6 @@ single: true
       {% endif %}
     </p>
     <p class="meta">
-      {% include post/subscribe.html %}
       {% include post/pitch.html %}
     </p>
   </footer>

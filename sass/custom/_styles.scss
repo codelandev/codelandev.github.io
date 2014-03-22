@@ -21,6 +21,10 @@ a:hover{ color: darken(#FFD600, 1) }
 
 #content .blog-index article h1 a:hover{ color: darken(#FFD600, 1) }
 
+#blog-archives a.category:hover{ color: darken(#FFD600, 1) }
+
+#blog-archives h1 a:hover{ color: darken(#FFD600, 1) }
+
 .social{
   padding: 0.1em 0.78em;
   text-indent: -9999px;
@@ -33,4 +37,17 @@ a:hover{ color: darken(#FFD600, 1) }
 .linkedin{ background-image: url('/images/linkedin.png'); }
 .rss{ background-image: url('/images/rss.png'); }
 
-.pitch-image{ box-shadow: none;}
+.pitch-image{ box-shadow: none; }
+
+.subscribe{
+  background-color: #303030;
+  border-radius: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  p{
+    color: white;
+  }
+}
+
+.member-name{ margin-bottom: 2px;}
