@@ -1,0 +1,64 @@
+---
+layout: post
+title: "Sim, um bom código é essencial!"
+date: 2014-01-06 10:50:39 -0300
+comments: true
+categories:
+- Webdev
+author: Patrick Muller
+---
+
+Alguma vez você já escreveu algum pedaço de código ou até mesmo um projeto inteiro e se envergonhou dele? Garanto com 100% de certeza que todos os desenvolvedores, sejam eles de qual ramo forem, já escreveram código do qual se envergonham. Se você não se evergonha é porque nunca revisou seus códigos escritos no passado.
+
+<!-- more -->
+
+Certa vez em um post de James Schorr, no blog do site RubyLearning (<a href="http://www.rubylearning.com" target="_blank">www.rubylearning.com</a>), ele comparou o trabalho de um desenvolvedor com o de pessoas que trabalham com criação, mais precisamente, com o de um carpinteiro. Na comparação ele dizia o seguinte:
+
+{% blockquote %}
+Compare o carpinteiro que produz um gabinete para um trabalhador fabril, e o mesmo trabalhador que aperta botões que fazem com que uma máquina produza gabinetes uns iguais aos outros sem parar. Enquanto ambos experimentam algum tipo de satisfação com seus trabalhos, somente o carpinteiro aproveita satisfação duradoura.
+{% endblockquote %}
+
+Porque? Basicamente porque a todo momento o carpinteiro tem a possibilidade de apromimorar seu trabalho e ver o quão bom ele está se tornando com o ganho de experiência, enquanto o trabalhador fabríl apenas aperta botões e deixa que máquinas executem seu trabalho, sem saber para onde está indo seu trabalho.
+
+Para um desenvolvedor existem 3 estágios de aprendizado: Pré-desenvolvimento, desenvolvimento e pós-desenvolvimento. Desenvolvedores que se preocupam com a qualidade de seu código extraem o máximo de cada um desses estágios, mesmo antes de começarem a escrever qualquer linha de código.
+
+<h2>Pré-desenvolvimento</h2>
+
+Existem diversos pontos a serem abordados no pré-desenvolvimento, que no caso da CODELAND se aplicam na primeira semana de desenvolvimento, ou como nós chamamos, “semana de descobrimento”. Alguns principais foram tirados deste post (<a href="http://rubylearning.com/blog/2010/10/18/do-you-enjoy-your-code-quality/" target="_blank">http://rubylearning.com/blog/2010/10/18/do-you-enjoy-your-code-quality/</a>) do James Schorr e que se encaixam perfeitamente nas metodologias adotadas pelo SCRUM e por nossa equipe:
+<ul>
+  <li>Capte todos os requirimentos e “stories” do cliente. Escute sempre opiniões de não-desenvolvedores, você pode ficar surpreso como eles enxergam o sistema diferente de um desenvolvedor;</li>
+  <li>Rejeite "deadlines" não realistas. Se você disser que pode entregar em 5 semanas sem qualidade, extenda algumas a mais e faça algo do qual irá se orgulhar de ter escrito;</li>
+  <li>Se você não saber responder o “porque” de uma feature e “o que” ela impacta, nem comece a responder “como” ela será feita;</li>
+  <li>Não comece a escrever código se estiver em um dia que precise fazer algo diferente a cada 10 ou 15 minutos, isso atrapalha o desenvolvimento e o raciocínio mais do que se pode imaginar.</li>
+</ul>
+
+<h2>Desenvolvimento</h2>
+
+<ul>
+  <li>Não reinvente a roda, se existe algo pronto que funciona (quase) perfeitamente, use-o e contribua pra que melhore;</li>
+  <li>Antes de escrever qualquer linha de código tenha certeza de que você entendeu o que está para ser feito. Leve o tempo que for necessário;</li>
+  <li>Preocupe-se com os erros que o usuário pode cometer utilizando o software. Nunca confie que eles irão fazer exatamente o que o software mostra. Se possível peça para que não-desenvolvedores utilizem antes de finalizar o release da funcionalidade;</li>
+  <li>Evite adicionar tecnologias recem lançadas. Na maioria das vezes elas possuem bugs que podem prejudicar todo o andamento do projeto;</li>
+  <li>Pergunte quando tiver dúvidas. Até mesmo os mais brilhantes desenvolvedores podem aprender com o trabalho de outras pessoas e criar novos modos de escrever código.</li>
+</ul>
+
+<h2>Pós-desenvolvimento</h2>
+
+<ul>
+  <li>Revise seu código, melhore velocidade, segurança, estabilidade e usabilidade;</li>
+  <li>Discuta com outros desenvolvedores se o que você fez é bom;</li>
+  <li>Revise códigos passados e compare com os de agora. Isso servirá para medir o quanto você progrediu.</li>
+</ul>
+
+<h2>Dicas</h2>
+<ul>
+  <li>Gosta de ouvir música enquanto escreve código? Ótimo, então ouça, um desenvolvedor feliz escreve código melhor naturalmente do que um estressado;</li>
+  <li>Use a ferramenta que você melhor sabe utilizar, e não aquele que é apenas mais barata ou coisa assim;</li>
+  <li>Tenha intervalos de descanso. Utilize técnicas como o <a href="http://blog.codeland.com.br/blog/2013/11/03/dica-de-produtividade-a-tecnica-do-pomodoro/" target="_blank">Pomodoro</a>;</li>
+  <li>Descansee se alimente corretamente. Saúde é também sinônimo de produtividade;</li>
+  <li>Não consegue se focar na solução estando na frente do computador? Levante e caminhe, tome um pouco de ar, faça algo diferente, é incrível como achamos soluções para nossos problemas quando paramos de pensar nelas por alguns intantes;</li>
+  <li>Marque tempos de entrega realístas. Antes de dizer pro seu chefe ou cliente que faz em uma semana, adicione alguns dias, e faça algo realmente bom;</li>
+  <li>Conheça seus limites e deixe-os bem claros, “Não, eu não vou reeinvetar o Google”.</li>
+</ul>
+
+Esses são alguns dos pontos mais importantes quando se está desenvolvendo software para nós da CODELAND, e que sem dúvida garantem uma melhora significativa no ânimo das pessoas envolvidas, nos prazos de entrega e principalmente na qualidade dos serviços oferecidos. Temos certeza de que se pelo menos 50% do que foi sugerido aqui seja seguido, você como desenvolvedor já notará uma diferença significativa.
