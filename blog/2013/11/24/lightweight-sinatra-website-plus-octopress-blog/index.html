@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Lightweight Sinatra Website + Octopress Blog - CODELAND</title>
+  <meta name="author" content="CODELAND">
+
+  
+  <meta name="description" content="Octopress Você já ouviu falar do Octopress? Ele é um pequeno framework feito para o Jekyll, que gera de maneira estática um blog pronto para você &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://codelandev.github.io/blog/2013/11/24/lightweight-sinatra-website-plus-octopress-blog">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="CODELAND" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Poller+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Germania+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fontdiner+Swanky' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Della+Respira' rel='stylesheet' type='text/css'>
+
+  
+
+</head>
+
+<body >
+  <header role="banner"><a href="/"><img src="/images/CodeLandLogo.png"></a>
+<hgroup>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/about.html">Sobre</a></li>
+  <li><a href="/blog/archives">Arquivo</a></li>
+  <li><a href="http://www.facebook.com.br/CODELAND" target="_blank" class="social facebook" alt="Facebook" title="Facebook"><span>Facebook</span></a></li>
+  <li><a href="http://www.twitter.com/CODELANDdev" target="_blank" class="social twitter" alt="Twitter" title="Twitter"><span>Twitter</span></a></li>
+  <li><a href="http://www.linkedin.com/company/codeland" target="_blank" class="social linkedin" alt="LinkedIn" title="LinkedIn"><span>LinkedIn</span></a></li>
+  <li><a href="https://github.com/codelandev" target="_blank" class="social github" alt="GitHub" title="GitHub"><span>GitHub</span></a></li>
+  <li><a href="/atom.xml" target="_blank" class="social rss" alt="RSS" title="RSS"><span>RSS</span></a></li>
+</ul>
+
+<br>
+  
+<!--
+<ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+-->
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Lightweight Sinatra Website + Octopress Blog</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-11-24T11:34:12-02:00" pubdate data-updated="true">Nov 24<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h3>Octopress</h3>
+
+
+<p>Você já ouviu falar do <a href="http://octopress.org/" target="_blank">Octopress</a>? Ele é um pequeno framework feito para o <a href="http://jekyllrb.com/" target="blank">Jekyll</a>, que gera de maneira estática um blog pronto para você sair usando. Apesar de enxuto, é bastante poderoso. Além de todo suporte para as principais redes sociais já imbutido, ele conta com diversos plugins diferentes, como áreas de código, gerador de categorias, exibição de gists do Github nos posts, e muitas outras funcionalidades bacanas.</p>
+
+<!-- more -->
+
+
+<p>Porém, não é feito para qualquer um. É um sistema de blog de hackers para hackers. No Octopress, não existe interface administrativa, como no WordPress, por exemplo. Todos os comandos vão ser rodados por você via linha de comando, e as configurações serão feitas editando alguns arquivos padrões gerados por ele. Até mesmo a criação de um novo post é feita pela linha de comando. Então saiba onde vocês está entrando.</p>
+
+<h3>Sinatra</h3>
+
+
+<p><a href="http://www.sinatrarb.com/">Sinatra</a> é uma <a href="http://en.wikipedia.org/wiki/Domain-specific_language" target="_blank">DSL</a> criada para que rapidamente possamos criar aplicações web em Ruby com o mínimo de esforço. Bem menos poderoso que o Rails, serve bem para websites de duas páginas ou menos. Sempre costumo a fazer sites estáticos usando ele.</p>
+
+<h3>Juntando os dois</h3>
+
+
+<p>Recentemente me deparei com um pequeno problema ao querer colocar um blog gerado pelo Octopress em um subdiretório de uma aplicação rodando Sinatra (<a href="http://meuwebsite/blog,">http://meuwebsite/blog,</a> por exemplo). Resolvi criar um pequeno tutorial para que você também possa usufruir da combinação dessas duas ferramentes fantásticas, que vão manter seu diretório de trabalho limpo e deixar seu site bastante leve.</p>
+
+<p>Primeiro, você precisa criar seu blog através do Octopress. Siga as instruções contidas <a href="http://octopress.org/docs/setup/" target="_blank">nessa página</a>.</p>
+
+<p>Depois disso você já tem seu blog funcionando. Mas nós precisamos fazer algumas alterações nas configurações. Afinal, queremos que o nosso blog seja acessível através da página <a href="http://example.com/blog.">http://example.com/blog.</a> Altere os seguintes arquivos que foram gerados:</p>
+
+<figure class='code'><figcaption><span>config.yml</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="ss">destination</span><span class="p">:</span> <span class="kp">public</span><span class="o">/</span><span class="n">blog</span>
+</span><span class='line'><span class="ss">url</span><span class="p">:</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//ex</span><span class="n">ample</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">blog</span>
+</span><span class='line'><span class="n">subscribe_rss</span><span class="p">:</span> <span class="sr">/blog/</span><span class="n">atom</span><span class="o">.</span><span class="n">xml</span>
+</span><span class='line'><span class="ss">root</span><span class="p">:</span> <span class="sr">/blog</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>config.rb - para Compass & Sass</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">http_path</span> <span class="o">=</span> <span class="err">“</span><span class="o">/</span><span class="n">blog</span><span class="err">”</span>
+</span><span class='line'><span class="n">http_images_path</span> <span class="o">=</span> <span class="err">“</span><span class="o">/</span><span class="n">blog</span><span class="o">/</span><span class="n">images</span><span class="err">”</span>
+</span><span class='line'><span class="n">http_fonts_path</span> <span class="o">=</span> <span class="err">“</span><span class="o">/</span><span class="n">blog</span><span class="o">/</span><span class="n">fonts</span><span class="err">”</span>
+</span><span class='line'><span class="n">css_dir</span> <span class="o">=</span> <span class="err">“</span><span class="kp">public</span><span class="o">/</span><span class="n">blog</span><span class="o">/</span><span class="n">stylesheets</span><span class="err">”</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<figure class='code'><figcaption><span>Rakefile.rb</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">public_dir</span> <span class="o">=</span> <span class="err">“</span><span class="kp">public</span><span class="o">/</span><span class="n">blog</span><span class="err">”</span>
+</span><span class='line'><span class="c1"># Se você está fazendo deploy com rsync, troque o caminho do Rakefile</span>
+</span><span class='line'><span class="n">document_root</span> <span class="o">=</span> <span class="err">“</span><span class="o">~</span><span class="sr">/yoursite.com/</span><span class="n">blog</span><span class="err">”</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Uma vez feito isso, agora temos o blog no caminho que desejamos, /blog. Vá no terminal e execute o comando “rake generate preview”. Isso vai fazer com que o blog seja gerado e que um servidor seja iniciado para que você possa testar localmente. Vá até seu browser e tente acessar “localhost:4000/blog”. Você deve ver seu blog rodando.</p>
+
+<h3>Agora vamos criar nossa aplicação Sinatra.</h3>
+
+
+<p>Para começar nosso projeto, primeiro você deve instalar o Sinatra e o Thin, caso não o tenha feito ainda.</p>
+
+<p>gem install sinatra<br>
+gem install thin</p>
+
+<p>Feito isso, vamos criar uma pasta onde nosso website vai ficar. Dentro dele, crie um arquivo chamado site.rb, com o seguinte conteúdo:</p>
+
+<figure class='code'><figcaption><span>site.rb</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="err">‘</span><span class="n">sinatra</span><span class="err">’</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">get</span> <span class="err">‘</span><span class="o">/</span><span class="err">’</span> <span class="k">do</span>
+</span><span class='line'>  <span class="n">redirect</span> <span class="err">‘</span><span class="o">/</span><span class="n">index</span><span class="o">.</span><span class="n">html</span><span class="err">’</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Como podem ver, estamos chamando um arquivo chamado index.html, que ainda não criamos. Dentro da raiz do nosso projeto, crie uma pasta chamada public, e dentro dela crie o index.html. Esse será o arquivo html do seu site enxuto, landing page, ou qualquer que seja a sua intenção. Se você rodar “ruby site.rb” no console, esse arquivo estará acessível pelo browser através do endereço “localhost:4567”.</p>
+
+<h3>A parte final: integrando o blog gerado com o aplicativo Sinatra que criamos.</h3>
+
+
+<p>Dentro da pasta onde geramos nosso blog, vá até a pasta /public e copie a pasta chamada blog. Cole ela em nosso projeto Sinatra, dentro da pasta /public. Feito isso, edite o arquivo site.rb e adicione essas linhas no final do arquivo:</p>
+
+<figure class='code'><figcaption><span>site.rb</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">get</span><span class="p">(</span><span class="sr">/.+/</span><span class="p">)</span> <span class="k">do</span>
+</span><span class='line'>  <span class="n">send_sinatra_file</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">path</span><span class="p">)</span> <span class="p">{</span><span class="mi">404</span><span class="p">}</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">not_found</span> <span class="k">do</span>
+</span><span class='line'>  <span class="n">send_file</span><span class="p">(</span><span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">File</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="bp">__FILE__</span><span class="p">),</span> <span class="err">‘</span><span class="kp">public</span><span class="err">’</span><span class="p">,</span> <span class="err">‘</span><span class="mi">404</span><span class="o">.</span><span class="n">html</span><span class="err">’</span><span class="p">),</span> <span class="p">{</span><span class="ss">:status</span> <span class="o">=&gt;</span> <span class="mi">404</span><span class="p">})</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">send_sinatra_file</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">missing_file_block</span><span class="p">)</span>
+</span><span class='line'>  <span class="n">file_path</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">File</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="bp">__FILE__</span><span class="p">),</span> <span class="err">‘</span><span class="kp">public</span><span class="err">’</span><span class="p">,</span> <span class="n">path</span><span class="p">)</span>
+</span><span class='line'>  <span class="n">file_path</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="err">‘</span><span class="n">index</span><span class="o">.</span><span class="n">html</span><span class="err">’</span><span class="p">)</span> <span class="k">unless</span> <span class="n">file_path</span> <span class="o">=~</span> <span class="sr">/.[a-z]+$/i</span>
+</span><span class='line'>  <span class="no">File</span><span class="o">.</span><span class="n">exist?</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span> <span class="p">?</span> <span class="n">send_file</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span> <span class="p">:</span> <span class="n">missing_file_block</span><span class="o">.</span><span class="n">call</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Vá ao terminal e dentro da pasta do projeto Sinatra execute “ruby site.rb”. Agora acesse através do seu browser a página “localhost:4567/blog” e você terá seu blog rodando em um subdiretório do seu projeto Sinatra. Se você entrar em “localhost:4567”, verá o arquivo HTML da sua página.</p>
+
+<p>Criei um pequeno aplicativo para mostrar como funciona depois de pronto. Você pode acessá-lo no GitHub através <a href="https://github.com/brunopazzim/sinatra-octopress-demo" target="_blank">desse link</a>.</p>
+</div>
+
+
+  <footer>
+    <p class="meta subscribe">
+      Se você gostou do que leu, considere <a href="http://eepurl.com/MJ6Qr" target="_blank">se cadastrar em nossa newsletter</a>.
+<br>
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://codelandev.github.io/blog/2013/11/24/lightweight-sinatra-website-plus-octopress-blog/" data-via="CODELANDdev" data-counturl="http://codelandev.github.io/blog/2013/11/24/lightweight-sinatra-website-plus-octopress-blog/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Post escrito por <span class="fn">Bruno Pazzim</span></span>
+
+
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/webdev/'>Webdev</a>
+  
+</span>
+
+
+    </p>
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/11/03/dica-de-produtividade-a-tecnica-do-pomodoro/" title="Previous Post: Dica de produtividade - A técnica do Pomodoro">&laquo; Dica de produtividade - A técnica do Pomodoro</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/12/14/o-que-realmente-e-ser-um-empreendedor/" title="Next Post: O que realmente é ser um “Empreendedor”?">O que realmente é ser um “Empreendedor”? &raquo;</a>
+      
+    </p>
+    <p class="meta">
+      <br>
+<img src="/images/doodles.png" class="pitch-image">
+<br>
+A <a href="http://www.codeland.com.br" target="_blank">CODELAND</a> é uma empresa de desenvolvimento de software ágil confiável, direta e com um time minado de experts nas suas áreas. Graças a nossa expertise e nossa metodologia única, ajudamos os nossos clientes a cortar a maior parte do risco em lançar um novo sistema na web. Quer lançar uma nova ideia de negócio digital, ou precisa de um novo sistema web para a sua empresa? Venha <a href="http://www.codeland.com.br"> falar com a gente</a>. Vamos adorar conversar sobre o seu projeto!
+
+    </p>
+  </footer>
+</article>
+
+</div>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Conteúdo protegido &copy; 2013 - 2014 | <a href="http://www.codeland.com.br" target=""_blank>CODELAND</a> | <a href="http://eepurl.com/MJ6Qr" target="_blank"> Cadastre-se em nossa newsletter</a>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

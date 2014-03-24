@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categoria: UX | CODELAND]]></title>
+  <link href="http://codelandev.github.io/blog/categories/ux/atom.xml" rel="self"/>
+  <link href="http://codelandev.github.io/"/>
+  <updated>2014-03-24T19:09:49-03:00</updated>
+  <id>http://codelandev.github.io/</id>
+  <author>
+    <name><![CDATA[CODELAND]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A Função Das Palavras]]></title>
+    <link href="http://codelandev.github.io/blog/2013/10/26/a-funcao-das-palavras/"/>
+    <updated>2013-10-26T04:20:12-02:00</updated>
+    <id>http://codelandev.github.io/blog/2013/10/26/a-funcao-das-palavras</id>
+    <content type="html"><![CDATA[<p>Muitas empresas hoje se importam cada vez mais com a estética de seus websites, e acabam se deixando pecar pela falta de foco e falta de padrão no conteúdo.</p>
+
+<p>Em todos os níveis, palavras podem, quando usadas em consideração como parte do processo de design, ajudar e melhorar a experiência do usuário, o deixando mais contente e decidido com a visita no website.</p>
+
+<!-- more -->
+
+
+<p>Grandes empresas como a Apple se importam muito com isso,  livrando de qualquer linguagem técnica para usar uma linguagem cotidiana, que se conecta aos seus usuários da maneira mais fácil. Enquanto outras empresas se preocupam em bombardear os usuários com especificações técnicas nas suas headlines, a Apple tem uma aproximação mais humana. O resultado são frases memoráveis, cuidadosamente estruturadas. Um exemplo é o slogan do iPod: “1000 músicas no seu bolso”, enquanto a concorrência segue outra linha: “Uma grande capacidade de armazenamento e um design compacto.” Não preciso dizer qual é que fez mais sucesso, não é?</p>
+
+<p>Empresas como o MailChimp vão ainda mais longe e, se você trabalha com eles e quer escrever algo para os usuários, tem de estar ciente que existe guia sobre como abordar temas: Quais palavras são comumente mais usadas, qual o sentimento de cada usuário ao acessar certa parte do website. Eles tem uma página chamada <a href="http://voiceandtone.com/" target="_blank">Voice and Tone</a> (recomendo a leitura dos guias, é uma ótima referência) para deixar muito claro a importância que eles dão as palavras. Como claramente dizem na página:</p>
+
+<p>&ldquo;Antes de escrever conteúdo para o MailChimp, é importante conhecer nossos leitores. Apesar de nossa voz não mudar, nosso tom se adapata aos sentimentos de nossos usuários. Esse guia interativo vai lhe mostrar como isso funciona.&rdquo;</p>
+
+<h2>Tom e Voz</h2>
+
+
+<p>Nada pior do que ter uma visão diferente de um website a cada página acessada. Na home page você é sério. Na FAQ, assume um tom que me faz rir. Na página de porfólios, a seriedade volta. Isso tudo deixa o usuário confuso quanto a qual sentimento ter. Escolher um tom que deve ser usado com a dosagem certa em cada página é muito importante.</p>
+
+<p>Para chegar a um consenso de qual postura se deve adotar onde vamos escrever, o ideal é primeiro ter em mente os valores da empresa. Somos sérios? Descontraídos? Queremos atrair os olhos de grandes empresas ou freelancers? Isso tudo interfere na maneira de aproximação com o usuário.</p>
+
+<p>Depois de definido os valores, muitas empresas (principalmente agências publicitárias) adotam a solução de criar um banco de palavras. Um lugar onde ficam as palavras mais usadas em certas campanhas, e as que definem a identidade da empresa. Se muitas pessoas revezam o trabalho de escrever, isso é uma ótima solução para manter o tom consistente.</p>
+
+<p>Nos projetos da <a href="http://www.codeland.com.br" target="_blank">CODELAND</a> sempre damos atenção especial aos textos que usamos em nossos projetos, e nunca começamos um desenho com lorem ipsum. Desde os primeiros passos do projeto nos envolvemos com o uso do tom certo, que define o cliente.</p>
+
+<p>No fim, as palavras são tão importante visualmente quanto o desenho em si. Quando bem estruturadas, casam com o design, criando uma experiência acima do normal para o usuário. Desenho e palavras se tornam um só.</p>
+]]></content>
+  </entry>
+  
+</feed>

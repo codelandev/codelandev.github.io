@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categoria: Webdev | CODELAND]]></title>
+  <link href="http://codelandev.github.io/blog/categories/webdev/atom.xml" rel="self"/>
+  <link href="http://codelandev.github.io/"/>
+  <updated>2014-03-24T19:09:49-03:00</updated>
+  <id>http://codelandev.github.io/</id>
+  <author>
+    <name><![CDATA[CODELAND]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Sim, Um Bom Código é Essencial!]]></title>
+    <link href="http://codelandev.github.io/blog/2014/01/06/sim/"/>
+    <updated>2014-01-06T11:50:39-02:00</updated>
+    <id>http://codelandev.github.io/blog/2014/01/06/sim</id>
+    <content type="html"><![CDATA[<p>Alguma vez você já escreveu algum pedaço de código ou até mesmo um projeto inteiro e se envergonhou dele? Garanto com 100% de certeza que todos os desenvolvedores, sejam eles de qual ramo forem, já escreveram código do qual se envergonham. Se você não se evergonha é porque nunca revisou seus códigos escritos no passado.</p>
+
+<!-- more -->
+
+
+<p>Certa vez em um post de James Schorr, no blog do site RubyLearning (<a href="http://www.rubylearning.com" target="_blank">www.rubylearning.com</a>), ele comparou o trabalho de um desenvolvedor com o de pessoas que trabalham com criação, mais precisamente, com o de um carpinteiro. Na comparação ele dizia o seguinte:</p>
+
+<p><blockquote><p>Compare o carpinteiro que produz um gabinete para um trabalhador fabril, e o mesmo trabalhador que aperta botões que fazem com que uma máquina produza gabinetes uns iguais aos outros sem parar. Enquanto ambos experimentam algum tipo de satisfação com seus trabalhos, somente o carpinteiro aproveita satisfação duradoura.</p></blockquote></p>
+
+<p>Porque? Basicamente porque a todo momento o carpinteiro tem a possibilidade de apromimorar seu trabalho e ver o quão bom ele está se tornando com o ganho de experiência, enquanto o trabalhador fabríl apenas aperta botões e deixa que máquinas executem seu trabalho, sem saber para onde está indo seu trabalho.</p>
+
+<p>Para um desenvolvedor existem 3 estágios de aprendizado: Pré-desenvolvimento, desenvolvimento e pós-desenvolvimento. Desenvolvedores que se preocupam com a qualidade de seu código extraem o máximo de cada um desses estágios, mesmo antes de começarem a escrever qualquer linha de código.</p>
+
+<h2>Pré-desenvolvimento</h2>
+
+
+<p>Existem diversos pontos a serem abordados no pré-desenvolvimento, que no caso da CODELAND se aplicam na primeira semana de desenvolvimento, ou como nós chamamos, “semana de descobrimento”. Alguns principais foram tirados deste post (<a href="http://rubylearning.com/blog/2010/10/18/do-you-enjoy-your-code-quality/" target="_blank"><a href="http://rubylearning.com/blog/2010/10/18/do-you-enjoy-your-code-quality/">http://rubylearning.com/blog/2010/10/18/do-you-enjoy-your-code-quality/</a></a>) do James Schorr e que se encaixam perfeitamente nas metodologias adotadas pelo SCRUM e por nossa equipe:</p>
+
+<ul>
+  <li>Capte todos os requirimentos e “stories” do cliente. Escute sempre opiniões de não-desenvolvedores, você pode ficar surpreso como eles enxergam o sistema diferente de um desenvolvedor;</li>
+  <li>Rejeite "deadlines" não realistas. Se você disser que pode entregar em 5 semanas sem qualidade, extenda algumas a mais e faça algo do qual irá se orgulhar de ter escrito;</li>
+  <li>Se você não saber responder o “porque” de uma feature e “o que” ela impacta, nem comece a responder “como” ela será feita;</li>
+  <li>Não comece a escrever código se estiver em um dia que precise fazer algo diferente a cada 10 ou 15 minutos, isso atrapalha o desenvolvimento e o raciocínio mais do que se pode imaginar.</li>
+</ul>
+
+
+
+
+<h2>Desenvolvimento</h2>
+
+
+
+
+<ul>
+  <li>Não reinvente a roda, se existe algo pronto que funciona (quase) perfeitamente, use-o e contribua pra que melhore;</li>
+  <li>Antes de escrever qualquer linha de código tenha certeza de que você entendeu o que está para ser feito. Leve o tempo que for necessário;</li>
+  <li>Preocupe-se com os erros que o usuário pode cometer utilizando o software. Nunca confie que eles irão fazer exatamente o que o software mostra. Se possível peça para que não-desenvolvedores utilizem antes de finalizar o release da funcionalidade;</li>
+  <li>Evite adicionar tecnologias recem lançadas. Na maioria das vezes elas possuem bugs que podem prejudicar todo o andamento do projeto;</li>
+  <li>Pergunte quando tiver dúvidas. Até mesmo os mais brilhantes desenvolvedores podem aprender com o trabalho de outras pessoas e criar novos modos de escrever código.</li>
+</ul>
+
+
+
+
+<h2>Pós-desenvolvimento</h2>
+
+
+
+
+<ul>
+  <li>Revise seu código, melhore velocidade, segurança, estabilidade e usabilidade;</li>
+  <li>Discuta com outros desenvolvedores se o que você fez é bom;</li>
+  <li>Revise códigos passados e compare com os de agora. Isso servirá para medir o quanto você progrediu.</li>
+</ul>
+
+
+
+
+<h2>Dicas</h2>
+
+
+<ul>
+  <li>Gosta de ouvir música enquanto escreve código? Ótimo, então ouça, um desenvolvedor feliz escreve código melhor naturalmente do que um estressado;</li>
+  <li>Use a ferramenta que você melhor sabe utilizar, e não aquele que é apenas mais barata ou coisa assim;</li>
+  <li>Tenha intervalos de descanso. Utilize técnicas como o <a href="http://blog.codeland.com.br/blog/2013/11/03/dica-de-produtividade-a-tecnica-do-pomodoro/" target="_blank">Pomodoro</a>;</li>
+  <li>Descansee se alimente corretamente. Saúde é também sinônimo de produtividade;</li>
+  <li>Não consegue se focar na solução estando na frente do computador? Levante e caminhe, tome um pouco de ar, faça algo diferente, é incrível como achamos soluções para nossos problemas quando paramos de pensar nelas por alguns intantes;</li>
+  <li>Marque tempos de entrega realístas. Antes de dizer pro seu chefe ou cliente que faz em uma semana, adicione alguns dias, e faça algo realmente bom;</li>
+  <li>Conheça seus limites e deixe-os bem claros, “Não, eu não vou reeinvetar o Google”.</li>
+</ul>
+
+
+<p>Esses são alguns dos pontos mais importantes quando se está desenvolvendo software para nós da CODELAND, e que sem dúvida garantem uma melhora significativa no ânimo das pessoas envolvidas, nos prazos de entrega e principalmente na qualidade dos serviços oferecidos. Temos certeza de que se pelo menos 50% do que foi sugerido aqui seja seguido, você como desenvolvedor já notará uma diferença significativa.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lightweight Sinatra Website + Octopress Blog]]></title>
+    <link href="http://codelandev.github.io/blog/2013/11/24/lightweight-sinatra-website-plus-octopress-blog/"/>
+    <updated>2013-11-24T11:34:12-02:00</updated>
+    <id>http://codelandev.github.io/blog/2013/11/24/lightweight-sinatra-website-plus-octopress-blog</id>
+    <content type="html"><![CDATA[<h3>Octopress</h3>
+
+
+<p>Você já ouviu falar do <a href="http://octopress.org/" target="_blank">Octopress</a>? Ele é um pequeno framework feito para o <a href="http://jekyllrb.com/" target="blank">Jekyll</a>, que gera de maneira estática um blog pronto para você sair usando. Apesar de enxuto, é bastante poderoso. Além de todo suporte para as principais redes sociais já imbutido, ele conta com diversos plugins diferentes, como áreas de código, gerador de categorias, exibição de gists do Github nos posts, e muitas outras funcionalidades bacanas.</p>
+
+<!-- more -->
+
+
+<p>Porém, não é feito para qualquer um. É um sistema de blog de hackers para hackers. No Octopress, não existe interface administrativa, como no WordPress, por exemplo. Todos os comandos vão ser rodados por você via linha de comando, e as configurações serão feitas editando alguns arquivos padrões gerados por ele. Até mesmo a criação de um novo post é feita pela linha de comando. Então saiba onde vocês está entrando.</p>
+
+<h3>Sinatra</h3>
+
+
+<p><a href="http://www.sinatrarb.com/">Sinatra</a> é uma <a href="http://en.wikipedia.org/wiki/Domain-specific_language" target="_blank">DSL</a> criada para que rapidamente possamos criar aplicações web em Ruby com o mínimo de esforço. Bem menos poderoso que o Rails, serve bem para websites de duas páginas ou menos. Sempre costumo a fazer sites estáticos usando ele.</p>
+
+<h3>Juntando os dois</h3>
+
+
+<p>Recentemente me deparei com um pequeno problema ao querer colocar um blog gerado pelo Octopress em um subdiretório de uma aplicação rodando Sinatra (<a href="http://meuwebsite/blog,">http://meuwebsite/blog,</a> por exemplo). Resolvi criar um pequeno tutorial para que você também possa usufruir da combinação dessas duas ferramentes fantásticas, que vão manter seu diretório de trabalho limpo e deixar seu site bastante leve.</p>
+
+<p>Primeiro, você precisa criar seu blog através do Octopress. Siga as instruções contidas <a href="http://octopress.org/docs/setup/" target="_blank">nessa página</a>.</p>
+
+<p>Depois disso você já tem seu blog funcionando. Mas nós precisamos fazer algumas alterações nas configurações. Afinal, queremos que o nosso blog seja acessível através da página <a href="http://example.com/blog.">http://example.com/blog.</a> Altere os seguintes arquivos que foram gerados:</p>
+
+<p>``` ruby config.yml</p>
+
+<pre><code>destination: public/blog
+url: http://example.com/blog
+subscribe_rss: /blog/atom.xml
+root: /blog
+</code></pre>
+
+<p>```</p>
+
+<p>``` ruby config.rb &ndash; para Compass &amp; Sass</p>
+
+<pre><code>http_path = “/blog”
+http_images_path = “/blog/images”
+http_fonts_path = “/blog/fonts”
+css_dir = “public/blog/stylesheets”
+</code></pre>
+
+<p><code>
+</code> ruby Rakefile.rb</p>
+
+<pre><code>public_dir = “public/blog”
+# Se você está fazendo deploy com rsync, troque o caminho do Rakefile
+document_root = “~/yoursite.com/blog”
+</code></pre>
+
+<p>```</p>
+
+<p>Uma vez feito isso, agora temos o blog no caminho que desejamos, /blog. Vá no terminal e execute o comando “rake generate preview”. Isso vai fazer com que o blog seja gerado e que um servidor seja iniciado para que você possa testar localmente. Vá até seu browser e tente acessar “localhost:4000/blog”. Você deve ver seu blog rodando.</p>
+
+<h3>Agora vamos criar nossa aplicação Sinatra.</h3>
+
+
+<p>Para começar nosso projeto, primeiro você deve instalar o Sinatra e o Thin, caso não o tenha feito ainda.</p>
+
+<p>gem install sinatra<br>
+gem install thin</p>
+
+<p>Feito isso, vamos criar uma pasta onde nosso website vai ficar. Dentro dele, crie um arquivo chamado site.rb, com o seguinte conteúdo:</p>
+
+<p>``` ruby site.rb
+require ‘sinatra’</p>
+
+<p>get ‘/’ do
+  redirect ‘/index.html’
+end
+```</p>
+
+<p>Como podem ver, estamos chamando um arquivo chamado index.html, que ainda não criamos. Dentro da raiz do nosso projeto, crie uma pasta chamada public, e dentro dela crie o index.html. Esse será o arquivo html do seu site enxuto, landing page, ou qualquer que seja a sua intenção. Se você rodar “ruby site.rb” no console, esse arquivo estará acessível pelo browser através do endereço “localhost:4567”.</p>
+
+<h3>A parte final: integrando o blog gerado com o aplicativo Sinatra que criamos.</h3>
+
+
+<p>Dentro da pasta onde geramos nosso blog, vá até a pasta /public e copie a pasta chamada blog. Cole ela em nosso projeto Sinatra, dentro da pasta /public. Feito isso, edite o arquivo site.rb e adicione essas linhas no final do arquivo:</p>
+
+<p>```ruby site.rb
+get(/.+/) do
+  send_sinatra_file(request.path) {404}
+end</p>
+
+<p>not_found do
+  send_file(File.join(File.dirname(<strong>FILE</strong>), ‘public’, ‘404.html’), {:status => 404})
+end</p>
+
+<p>def send_sinatra_file(path, &amp;missing_file_block)
+  file_path = File.join(File.dirname(<strong>FILE</strong>), ‘public’, path)
+  file_path = File.join(file_path, ‘index.html’) unless file_path =~ /.[a-z]+$/i
+  File.exist?(file_path) ? send_file(file_path) : missing_file_block.call
+end
+```</p>
+
+<p>Vá ao terminal e dentro da pasta do projeto Sinatra execute “ruby site.rb”. Agora acesse através do seu browser a página “localhost:4567/blog” e você terá seu blog rodando em um subdiretório do seu projeto Sinatra. Se você entrar em “localhost:4567”, verá o arquivo HTML da sua página.</p>
+
+<p>Criei um pequeno aplicativo para mostrar como funciona depois de pronto. Você pode acessá-lo no GitHub através <a href="https://github.com/brunopazzim/sinatra-octopress-demo" target="_blank">desse link</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Eu Também Pensava "Como Alguém Consegue Gostar Do VIM?"]]></title>
+    <link href="http://codelandev.github.io/blog/2013/10/14/eu-tambem-pensava-como-alguem-consegue-gostar-do-vim-slash/"/>
+    <updated>2013-10-14T04:41:35-03:00</updated>
+    <id>http://codelandev.github.io/blog/2013/10/14/eu-tambem-pensava-como-alguem-consegue-gostar-do-vim-slash</id>
+    <content type="html"><![CDATA[<p><img class="center" src="/images/vim.jpg"></p>
+
+<p>Mas não me sinto culpado. Acho que a maioria das pessoas que vê pela primeira vez acha isso, não é?</p>
+
+<p>Sejamos sinceros, o VIM é um editor de texto diferente dos convencionais. Não é como se você tivesse um menu na barra superior te contando todos os atalhos principais do programa.</p>
+
+<!-- more -->
+
+
+<p>Vim (usar essa palavra em um texto sobre sobre VIM realmente não ajuda) de um mundo onde usar o TextMate era uma coisa fantástica. Meus professores na universidade, quando me viam usando um Macbook, costumavam a dizer que eu poderia tranquilamente desenvolver os trabalhos das cadeiras de programação no TextMate ao invés da IDE de preferência deles, tamanho o gosto deles pelo editor. Pois bem, assim o mundo girava e eu era contente. Até que iniciei em meu emprego anterior.</p>
+
+<p>Logo que iniciei, vi que um dos meus colegas usava o tal editor dos comandos infinitos, impossível de ser entendido por alguém que apenas observa o fluxo de trabalho comum nele. Long story short: comecei a ter inveja de como ele podia dividir a tela em quantos painéis quisesse com uma facilidade absurda (hoje, usando só o VIM, eu nem tenho tanto costume assim de dividir a tela, mas caramba, aquilo era legal), e uma apresentação curta feita por ele (que pode ser encontrada <a href="https://speakerdeck.com/irio/vim-101" target="_blank">aqui</a>) foi o suficiente para eu ter vontade de usar.</p>
+
+<p>A verdade é que não sei dizer se o VIM é melhor e mais produtivo do que o TextMate ou qualquer outro editor, acho que é uma escolha muito pessoal. Mas o que posso dizer é que com uma semana usando o primeiro, larguei o TextMate depois de usar só ele por dois anos.</p>
+
+<p>Mas, por quê a troca?</p>
+
+<ul>
+  <li> Comandos do bash imbutidos no editor</li>
+  <li> Dividir a tela em painéis (hell yea)</li>
+  <li> CTags</li>
+  <li> Ampla comunidade usando, muitos plugins disponíveis</li>
+  <li> Depois que você encontra seu caminho no VIM, existe um ganho de produtividade (ao menos pra mim foi dessa maneira)</li>
+</ul>
+
+
+<p>A parte ruim é que a curva de aprendizado dele é bastante complicada. Coisas <a href="http://michael.peopleofhonoronly.com/vim/vim_cheat_sheet_for_programmers_colorblind.png" target="_blank">como essa</a> podem assustar. Mas dá pra imaginar o que você consegue, e mais importante, com a rapidez que você consegue fazer, sabendo só alguns desses comandos?</p>
+
+<p>Se você é desenvolvedor e pensa em trocar de editor, dê uma chance pro VIM. Se depois de uma semana sentir que a coisa realmente não flui, talvez seja melhor outra opção. Mas se ficar aquele gosto de “quero e posso mais com ele”, então bem vindo a bordo.</p>
+
+<p>Três links que me ajudaram no processo de migração:</p>
+
+<p><ul>
+  <li><a href="http://blog.danielfischer.com/2010/11/19/a-starting-guide-to-vim-from-textmate/" target="_blank">A Starting Guide From TextMate to VIM</a></li>
+  <li><a href="https://github.com/akitaonrails/vimfiles" target="_blank"> VimFiles do Fábio Akita (apesar de descontinuado, em minha opnião continua sendo a melhor pacote de plugins pro VIM)</a></li>
+  <li><a href="https://speakerdeck.com/irio/vim-101" target="_blank"> vim 101 (apresentação já linkada no post acima)</a></li></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Um Tempo Em Que O PSD Não é Mais Lei]]></title>
+    <link href="http://codelandev.github.io/blog/2013/09/22/um-tempo-em-que-o-psd-nao-e-mais-lei/"/>
+    <updated>2013-09-22T05:27:14-03:00</updated>
+    <id>http://codelandev.github.io/blog/2013/09/22/um-tempo-em-que-o-psd-nao-e-mais-lei</id>
+    <content type="html"><![CDATA[<p><img class="center" src="/images/psd.jpg"></p>
+
+<p>Será que os dias do nosso velho conhecido PSD com um website inteiro estão contados?</p>
+
+<p>Me surpreendi recentemente, quando li sobre algo que não achava que era tão conhecido: o desenvolvimento do layout de um website diretamente no código, sem nenhum editor gráfico para montar a estrutura. Encontrei vários artigos sobre, o suficiente pra acreditar que essa técnica já está sendo bem adotada. Parei pra pensar no porquê cada vez mais pessoas vem adotando essa aproximação ao webdesign.</p>
+
+<!-- more -->
+
+
+<p>Pois bem, o comum de hoje em dia é ver os designers fazerem os seus rascunhos e depois partirem direto para o editor de imagens carro-chefe da Adobe. É claro que pode parecer bem convidativo ter todo o poder e a facilidade que ele nos dá na hora de desenhar algo, ao invés de sair montando html e css. Mas sejamos sinceros, isso está bem longe da nossa realidade de trabalho de hoje.</p>
+
+<p>Nós queremos coisas prontas com agilidade, e parte da agilidade significa cortar passos que trancam o projeto, enquanto algo poderia estar sendo produzido. Já vi diversas vezes isso acontecer: designer começa o esboço do projeto, e então passa para o PSD. Pixel pra lá, forma pra lá, hora de mostrar ao cliente. Insatisfeito com algum dos aspectos, o desenho do website volta e o designer faz o seu trabalho, altera o necesário até que se chegue em um acordo. Só depois dessa aprovação final o projeto é iniciado pelos desenvolvedores.</p>
+
+<p>Se hoje temos ferramentas como o <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> e o <a href="http://www.divshot.com/" target="_blank">Divshot</a>, que nos proporcionam o setup de uma estrutura básica, já com código, feita em questão de minutos, pra que perder tempo fazendo exatamente a mesma coisa no Photoshop primeiro? É incrível como o ganho de tempo parece evidente dessa maneira.</p>
+
+<p>É claro, o Photoshop ainda é o software em estado da arte para desenvolvimento de peças gráficas, sejam impressas ou para os meios digitais. O ponto é, naturalmente esse software foi trazido para o campo do web design e mantido lá por muito tempo. Talvez agora seja a hora de deixarmos o uso dele para o propósito original. Lembre-se de considerar e de usar as ferramentas certas que você tiver, mas saiba quando alguma dessas ferramentas deixa de fazer sentido.</p>
+]]></content>
+  </entry>
+  
+</feed>
