@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dica de produtividade - A técnica do Pomodoro"
-date: 2014-03-24 10:14:06 -0300
+date: 2013-11-03 10:14:06 -0300
 comments: true
 categories:
 - Produtividade
@@ -10,6 +10,8 @@ author: Bruno Pazzim
 
 {%img center /images/pomodoro.jpg%}
 Com a correria do dia a dia, juntando nosso fluxo de trabalho com os bombardeios de e-mails e notificações dos aplicativos que usamos, é comum que não consigamos manter o foco necessário para completar uma tarefa em um curto período de tempo. Distrações, barulhos, conversas, aplicativos, um browser aberto esperando para nos levar a qualquer canto da internet. Tudo isso joga contra o nosso poder de concentração em uma tarefa.
+
+<!-- more -->
 
 Como programadores, sempre tentamos buscar metodologias e técnicas que façam nossa produtividade subir, para que possamos fazer mais com menos. (O <a href="http://blog.codeland.com.br//blog/2013/10/22/as-vantagens-de-comecar-pequeno/" target="_blank">ágil</a> prega muito disso). Foi numa dessas buscas que  encontrei a técnica do Pomodoro.
 
