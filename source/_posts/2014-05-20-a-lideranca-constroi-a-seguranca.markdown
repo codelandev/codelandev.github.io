@@ -9,7 +9,7 @@ author: Bruno Pazzim
 ---
 Outro dia eu estava assistindo uma palestra do TED, onde Simon Sinek estava falando sobre a sua perspectiva de liderança. Quanto mais eu assistia, mais eu me espantava em como o líder corporativo erra completamente o propósito de liderar um time para chegar em um objetivo em comum.
 
-Quando Simon perguntou a líderes reconhecidos por que eles fazem as coisas que fazem pelo seu pessoal, como um soldado arriscar a própria vida para trazer seus companheiros feridos para um lugar mais segudo, todos vieram com a mesma resposta.
+Quando Simon perguntou a líderes reconhecidos por que eles fazem as coisas que fazem pelo seu pessoal, como um soldado arriscar a própria vida para trazer seus companheiros feridos para um lugar mais seguro, todos vieram com a mesma resposta.
 
 <!-- more -->
 
