@@ -1,21 +1,43 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
-body{ border-top: 8px solid #FFD600; }
+body {
+  border-top: 8px solid #FFD600;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 1.05em;
+  letter-spacing: .01rem;
+  line-height: 2.05;
+  color: #333;
+}
+h3, h4, h5 {
+  font-family: 'Merriweather', serif;
+}
 
 .blog-index{ padding-top: 0px; margin-top:0px; }
 
 #content .blog-index article, body #content>div>article { padding-top: 0; }
 
-body>header{ padding-top: 4.5em; padding-bottom: 0.5em; background-color: #FFD600}
+body>header {
+  padding-top: 5em;
+  padding-bottom: 4.5em;
+  background-color: #FFD600
+}
 
 #content>div{ padding-top: 0;}
 
 body>nav{ padding-top: 0.80em; }
 
-body>nav a:hover{ color: darken(#FFD600, 1) }
+body>nav a {
+  font-family: 'Merriweather', serif;
+  line-height: 4em;
+}
 
-a:hover{ color: darken(#FFD600, 1) }
+body>nav li+li { margin-left: 0.8em; }
+
+body>nav a:hover { color: darken(#FFD600, 1) }
+
+a:hover { color: darken(#FFD600, 1) }
 
 #content div.pagination a:hover{ color: darken(#FFD600, 1) }
 
@@ -25,7 +47,7 @@ a:hover{ color: darken(#FFD600, 1) }
 
 #blog-archives h1 a:hover{ color: darken(#FFD600, 1) }
 
-#content .blog-index a[rel=full-article]:hover{ background-color: darken(#FFD600, 1) }
+#content .blog-index a[rel=full-article]:hover { background-color: darken(#FFD600, 1) }
 
 .social{
   padding: 0.1em 0.78em;
@@ -53,3 +75,66 @@ a:hover{ color: darken(#FFD600, 1) }
 }
 
 .member-name{ margin-bottom: 2px;}
+
+article {
+  width: 55%;
+  padding-left: 22.5% !important;
+  padding-right: 22.5% !important;
+  text-align: left;
+  header {
+    margin-bottom: 0.5em;
+    padding-top: 5em;
+    h1 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      text-align: left;
+      line-height: 1.2em;
+      font-size: 1.8em;
+    }
+    p.meta {
+      text-align: left;
+      font-size: 0.8em;
+      color: #aaa;
+    }
+  }
+}
+#content .blog-index {
+  article h1 {
+    font-size: 1.8em;
+  }
+  a[rel=full-article] {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    padding: 10px 15px;
+    text-transform: uppercase;
+  }
+}
+#blog-archives {
+  h1 {
+    font-size: 1.2em;
+    font-family: 'Open Sans';
+    line-height: 1.4em;
+    a {
+      font-weight: 700;
+    }
+  }
+  span.categories {
+    font-size: 0.9em;
+  }
+}
+#blog-archives {
+  time {
+    top: 2.1em;
+  }
+}
+article h2 {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+
