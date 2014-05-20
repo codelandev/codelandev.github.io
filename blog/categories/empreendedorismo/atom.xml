@@ -4,7 +4,7 @@
   <title><![CDATA[Categoria: Empreendedorismo | CODELAND]]></title>
   <link href="http://codelandev.github.io/blog/categories/empreendedorismo/atom.xml" rel="self"/>
   <link href="http://codelandev.github.io/"/>
-  <updated>2014-03-31T11:56:42-03:00</updated>
+  <updated>2014-05-20T11:06:28-03:00</updated>
   <id>http://codelandev.github.io/</id>
   <author>
     <name><![CDATA[CODELAND]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A Liderança Constrói a Segurança]]></title>
+    <link href="http://codelandev.github.io/blog/2014/05/20/a-lideranca-constroi-a-seguranca/"/>
+    <updated>2014-05-20T10:07:15-03:00</updated>
+    <id>http://codelandev.github.io/blog/2014/05/20/a-lideranca-constroi-a-seguranca</id>
+    <content type="html"><![CDATA[<p>Outro dia eu estava assistindo uma palestra do TED, onde Simon Sinek estava falando sobre a sua perspectiva de liderança. Quanto mais eu assistia, mais eu me espantava em como o líder corporativo erra completamente o propósito de liderar um time para chegar em um objetivo em comum.</p>
+
+<p>Quando Simon perguntou a líderes reconhecidos por que eles fazem as coisas que fazem pelo seu pessoal, como um soldado arriscar a própria vida para trazer seus companheiros feridos para um lugar mais segudo, todos vieram com a mesma resposta.</p>
+
+<!-- more -->
+
+
+<p>&ldquo;Eu faço porque eles fariam o mesmo por mim.&rdquo;</p>
+
+<p>Liderança de verdade é fazer as pessoas se sentirem seguras. Não é bastante óbvio quando partimos daqui? Para um líder se tornar um bom líder, ele deve começar a se sacrificar pelo seu pessoal. Não o contrário, onde um empregado é colocado a correr riscos para que o líder possa continuar seguro em seu emprego. E isso é pelo menos 80% dos casos lá fora.</p>
+
+<p>Existe perigo por aí &ndash; em um ambiente de trabalho, muita coisa pode fazer com que fiquemos improdutivos ou preocupados. O trabalho principal de um líder é de proteger seu time dessas coisas, para que eles possam se sentir seguros.</p>
+
+<p>Gosto muito da comparação que Simon faz sobre com o que ótimos líderes se parecem, e é bem fácil de entender quando colocamos dessa maneira: Um ótimo líder se parece muito com um pai. Um pai quer que seus filhos recebam educação, que sejam bem cuidados, e querem ajudá-los a chegarem cada vez mais alto em suas vidas. Também existirão horas em que o pai vai ter que ter pulso firme. Isso ilustra muito bem o papel de um líder dentro de uma empresa. E as vezes esse líder não está nem em um cargo de gerência.</p>
+
+<p>Muitas vezes eu me encontro surpreso em como isso não foi percebido pela maioria das pessoas que deveriam tomar esse papel. Na verdade, talvez eles tenham percebido. Mas para tomar esse papel da forma correta, essa pessoa deve começar a pegar os riscos com as suas próprias mãos. Talvez essa pessoa queira continuar onde está para se sentir seguro &ndash; jogando esses riscos nas mãos de outras pessoas.</p>
+
+<p>Se você está em um cargo de liderança, por favor, considere isso. Grandes coisas acontecerão se você começar a tomar os riscos para si e fazer com que as pessoas na sua volta se sintam seguras. Mais cedo do que você pensa, essas pessoas vão seguí-lo e escutá-lo mesmo se eles não fossem instruídos a fazer isso.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lista De Startups Em Fase Beta Ajuda Empreendedores E Investidores a Conhecerem as Novas Empresas Do Brasil]]></title>
@@ -174,24 +200,6 @@
 <p>Usando esse quadro, você pode validar suas ideias com um custo muito baixo, e com as pessoas que realmente importam: seus futuros clientes.</p>
 
 <p>Você já utilizou o Validation Board, ou algum quadro similar? Compartilhe suas experiências conosco!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ferramenta Que Está Ajudando Empresários a Ficarem Por Dentro Do Mundo Das Startups Brasileiras]]></title>
-    <link href="http://codelandev.github.io/blog/2014/01/14/ferramenta-que-esta-ajudando-empresarios-a-ficarem-por-dentro-do-mundo-das-startups-brasileiras/"/>
-    <updated>2014-01-14T11:59:31-02:00</updated>
-    <id>http://codelandev.github.io/blog/2014/01/14/ferramenta-que-esta-ajudando-empresarios-a-ficarem-por-dentro-do-mundo-das-startups-brasileiras</id>
-    <content type="html"><![CDATA[<p>A <a href="http://www.codeland.com.br" target="_blank">CODELAND</a> é uma empresa que trabalha diretamente com startups e empresários que se interessam pelo meio. Para essas pessoas, informação vale ouro. Isso fica muito claro quando estamos em nossa Semana de Descobrimento de projetos, onde discutimos diversos aspectos do negócio do cliente, formas de estruturar seu canvas, público alvo, etc. Nossos clientes ficam satisfeitos quando lhe mostramos algo novo ou uma perspectiva que não era clara a eles. No final, todo início de projeto feito aqui sempre remete muito a isso: transmitir informação e conhecimento.</p>
-
-<!-- more -->
-
-
-<p>Sempre sentimos falta de um local centralizado com as notícias mais importantes sobre tudo que está acontecendo no Brasil no que diz respeito a novos negócios, inovação tecnológica e social. Os grandes portais que trazem conteúdo sobre startups têm muito mais do que isso a oferecer, tornando o processo de achar notícias específicas complicado e improdutivo (quem quer ficar garimpando notícias até descobrir uma que, de fato, lhe interessa?). Tendo essa necessidade em vista, desenvolvemos em apenas dois dias o <a href="http://www.startupnews.com.br" target="_blank">StartupNews</a>, ferramenta open source para manter todos empresários e quem mais se interessa pelo hub tecnológico inovador brasileiro a par das principais notícias que estão correndo pelo país.</p>
-
-<p>Tínhamos também outra coisa em mente. Conteúdo puro sem o fator humano não nos serve. Muita interação legal acontece nos comentários e experiências compartilhados pela comunidade, trazendo até proximidade com pessoas importantes que talvez você não tivesse acesso antes. Por isso criamos um sistema para aferventar a interação e debates entre nossos usuários. (já temos alguns bem bacanas rolando por lá!)</p>
-
-<p>No tempo em que estamos vivendo, informação é chave. É valor. Se cadastre hoje no <a href="http://www.startupnews.com.br" target="_blank">StartupNews</a> e fique por dentro do mundo de inovação e de negócios que está acontecendo pelas suas costas no Brasil.</p>
 ]]></content>
   </entry>
   
