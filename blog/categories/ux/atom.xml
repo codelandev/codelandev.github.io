@@ -4,7 +4,7 @@
   <title><![CDATA[Categoria: UX | CODELAND]]></title>
   <link href="http://codelandev.github.io/blog/categories/ux/atom.xml" rel="self"/>
   <link href="http://codelandev.github.io/"/>
-  <updated>2014-06-24T11:13:27-03:00</updated>
+  <updated>2014-07-09T09:19:56-03:00</updated>
   <id>http://codelandev.github.io/</id>
   <author>
     <name><![CDATA[CODELAND]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Aumentando a Usabilidade]]></title>
+    <link href="http://codelandev.github.io/blog/2014/07/09/aumentando-a-usabilidade/"/>
+    <updated>2014-07-09T09:02:55-03:00</updated>
+    <id>http://codelandev.github.io/blog/2014/07/09/aumentando-a-usabilidade</id>
+    <content type="html"><![CDATA[<p>A melhor forma de testar a usabilidade de um software é usando-o. Não tenha dúvida: esse trabalho exigirá tempo para experenciar as dificuldades que aparecerão para a pessoa usando o sistema. E sim, existe uma ISO definindo usabilidade!</p>
+
+<!-- more -->
+
+
+<p><blockquote><p>[…] the extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use.</p></blockquote>
+Em uma tradução livre, se refere à possibilidade de determinados usuários alcançarem objetivos específicos com efetividade, eficiência e satisfação em um determinado contexto. Resumo da história: aumentar a usabilidade é tornar o uso de algo mais natural. Deste modo, o usuário passa a não ter dificuldades em aprender ou executar uma função. No contexto de software, é completar uma ação no sistema.</p>
+
+<p>Em uma tradução livre, se refere à possibilidade de determinados usuários alcançarem objetivos específicos com efetividade, eficiência e satisfação em um determinado contexto. Resumo da história: aumentar a usabilidade é tornar o uso de algo mais natural. Deste modo, o usuário passa a não ter dificuldades em aprender ou executar uma função. No contexto de software, é completar uma ação no sistema.</p>
+
+<p><img class="center" src="/images/ux.png"></p>
+
+<p>Nessa hora, vale mais do que nunca o princípio KISS, que sempre valoriza a simplicidade como forma de descomplicar processos. Com poucos objetos na tela, descobrir problemas se torna mais fácil. Por exemplo: você consegue enxergar linhas invisíveis ligando início e fim de cada elemento? Esse é o primeiro requisito do design que não tem a premissa de ser desconfortável ao usuário. Ele pode não saber o que está errado, mas se sentirá confuso ao tentar ler ou encontrar uma determinada opção. Grids são essenciais em qualquer tela, seja web, mobile ou desktop.</p>
+
+<p>Depois de desenvolvida, você pode abrir o site com calma e se perguntar: é agradável de se ver? De uma lista de todas as ações possíveis do sistema, qual é o número máximo de cliques exigidos para executar cada uma delas partindo da tela inicial? Qual a frequência que ela é executada? Existe algum modo de encurtar esse caminho sem adicionar elementos na interface? E, por fim, seu usuário acha esse processo fácil o suficiente para que olhe para a tela e saiba onde ir para executar o que precisa?</p>
+
+<hr>
+
+
+<br>
+
+
+<p>Esse post foi uma contribuição de <a href="http://br.linkedin.com/in/iriomk" target="_blank">Irio Musskopf</a>. Irio é engenheiro de software na <a href="http://neighbor.ly" target="_blank">Neighbor.ly</a>, e você pode encontrar mais sobre ele em seu <a href="https://twitter.com/irio" target="_blank">Twitter</a> ou <a href="https://github.com/Irio" target="_blank">Github</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A Função Das Palavras]]></title>
