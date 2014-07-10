@@ -4,7 +4,7 @@
   <title><![CDATA[Categoria: Design | CODELAND]]></title>
   <link href="http://codelandev.github.io/blog/categories/design/atom.xml" rel="self"/>
   <link href="http://codelandev.github.io/"/>
-  <updated>2014-07-09T10:10:12-03:00</updated>
+  <updated>2014-07-10T17:03:04-03:00</updated>
   <id>http://codelandev.github.io/</id>
   <author>
     <name><![CDATA[CODELAND]]></name>
@@ -18,7 +18,7 @@
     <link href="http://codelandev.github.io/blog/2014/07/09/aumentando-a-usabilidade/"/>
     <updated>2014-07-09T09:02:55-03:00</updated>
     <id>http://codelandev.github.io/blog/2014/07/09/aumentando-a-usabilidade</id>
-    <content type="html"><![CDATA[<p>A melhor forma de testar a usabilidade de um software é usando-o. Não tenha dúvida: esse trabalho exigirá tempo para experenciar as dificuldades que aparecerão para a pessoa usando o sistema. E sim, existe uma ISO definindo usabilidade!</p>
+    <content type="html"><![CDATA[<p>A melhor forma de testar a usabilidade de um software é usando-o. Não tenha dúvida: esse trabalho exigirá tempo para experenciar as dificuldades que aparecerão para a pessoa usando o sistema. E sim, existe <a href="http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=16883" target="_blank">uma ISO</a> definindo usabilidade!</p>
 
 <!-- more -->
 
@@ -28,7 +28,7 @@ Em uma tradução livre, se refere à possibilidade de determinados usuários al
 
 <p><img class="center" src="/images/ux.png"></p>
 
-<p>Nessa hora, vale mais do que nunca o princípio KISS, que sempre valoriza a simplicidade como forma de descomplicar processos. Com poucos objetos na tela, descobrir problemas se torna mais fácil. Por exemplo: você consegue enxergar linhas invisíveis ligando início e fim de cada elemento? Esse é o primeiro requisito do design que não tem a premissa de ser desconfortável ao usuário. Ele pode não saber o que está errado, mas se sentirá confuso ao tentar ler ou encontrar uma determinada opção. Grids são essenciais em qualquer tela, seja web, mobile ou desktop.</p>
+<p>Nessa hora, vale mais do que nunca o princípio <a href="http://en.wikipedia.org/wiki/KISS_principle" target="_blank">KISS</a>, que sempre valoriza a simplicidade como forma de descomplicar processos. Com poucos objetos na tela, descobrir problemas se torna mais fácil. Por exemplo: você consegue enxergar linhas invisíveis ligando início e fim de cada elemento? Esse é o primeiro requisito do design que não tem a premissa de ser desconfortável ao usuário. Ele pode não saber o que está errado, mas se sentirá confuso ao tentar ler ou encontrar uma determinada opção. <a href="http://neat.bourbon.io/examples/" target="_blank">Grids</a> são essenciais em qualquer tela, seja web, mobile ou desktop.</p>
 
 <p>Depois de desenvolvida, você pode abrir o site com calma e se perguntar: é agradável de se ver? De uma lista de todas as ações possíveis do sistema, qual é o número máximo de cliques exigidos para executar cada uma delas partindo da tela inicial? Qual a frequência que ela é executada? Existe algum modo de encurtar esse caminho sem adicionar elementos na interface? E, por fim, seu usuário acha esse processo fácil o suficiente para que olhe para a tela e saiba onde ir para executar o que precisa?</p>
 
