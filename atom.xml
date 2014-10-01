@@ -4,7 +4,7 @@
   <title><![CDATA[CODELAND]]></title>
   <link href="http://codelandev.github.io/atom.xml" rel="self"/>
   <link href="http://codelandev.github.io/"/>
-  <updated>2014-09-24T11:17:05-03:00</updated>
+  <updated>2014-10-01T14:21:30-03:00</updated>
   <id>http://codelandev.github.io/</id>
   <author>
     <name><![CDATA[CODELAND]]></name>
@@ -12,6 +12,69 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bizdev: A Prateleira De Livros]]></title>
+    <link href="http://codelandev.github.io/blog/2014/10/01/bizdev-a-prateleira-de-livros/"/>
+    <updated>2014-10-01T13:41:15-03:00</updated>
+    <id>http://codelandev.github.io/blog/2014/10/01/bizdev-a-prateleira-de-livros</id>
+    <content type="html"><![CDATA[<p>É muito fácil se perder no meio de tanta informação na internet quando estamos pesquisando sobre um novo assunto. Iniciar e tocar uma empresa, por exemplo, são dois dos assuntos mais cobertos e mais difíceis de achar conteúdo que realmente faça a diferença. Sabendo disso, eu quero compartilhar com vocês os livros que me ajudaram de verdade a aprender pontos importantes sobre negócios e desenvolvimento de produtos. Espero que eles possam fazer por você tanto quanto fizeram por mim.</p>
+
+<!-- more -->
+
+
+
+
+<h2>Negócios e Marketing</h2>
+
+
+<ul>
+    <li><a href="http://book.personalmba.com/" target="_blank">The Personal MBA</a>, Josh Kaufmann</li>
+    O livro perfeito para começar a ler sobre desenvolvimento de negócios. Josh estudou muitos materiais usados nos programas de MBAs mundialmente famosos e colocou o resultado nessa compilação. Muito fácil de ler, todas as sessões estão compostas em pequenos assuntos. Um ótimo início.<br>
+    <br>
+
+    <li><a href="http://theleanstartup.com/" target="_blank">The Lean Startup,</a> Eric Ries</li>
+    Lean Startup é uma metodologia usada para transformar novas ideias em produtos que geram lucro. Muito usada em muitas startups e grandes empresas, já é o metódo padrão para o desenvolvimento moderno de produtos. Tudo que fazemos na CODELAND é baseado no Lean Startup.<br>
+    <br>
+
+    <li><a href="http://37signals.com/rework/" target="_blank">Rework</a>, Jason Fried, David Heinemeier Hansson</li>
+    Você precisa de menos do que você imagina para começar uma empresa e lucrar com ela. A mensagem principal de Rework claramente mostra isso. Uma leitura muito rápida que pode lhe trazer várias ideias em como fazer negócios e de como você não precisa se preocupar com tudo. Se mantenha pequeno e enxuto.<br>
+    <br>
+
+    <li><a href="http://www.amazon.com/Remote-Office-Required-Jason-Fried/dp/0804137501" target="_blank">Remote</a>, Jason Fried, David Heinemeier Hansson</li>
+    Dos mesmos autores de Rework, Remote é um otimo livro sobre o gerenciamento de times remotos. É realmente conveniente ter a possibilidade de não ter que ir ao escritório todo dia, e aqui você encontra ótimo conteúdo sobre como fazer com que funcionários remotos realmente consigam produzir do conforto de suas casas ou de algum outro lugar preferido. Sem mencionar que não ter um escritório pode fazer com que você economize uma boa quantia de dinheiro quando você estiver iniciando um negócio.<br>
+    <br>
+
+    <li><a href="http://www.amazon.com/Jab-Right-Hook-Story-Social/dp/006227306X" target="_blank">Jab, jab, jab, right hook</a>, Gary Vaynerchuk</li>
+    Gary é uma inspiração como empreendedor e colocar muita paixão em tudo que faz. Seu último livro, JJJRH, cobre como fazer marketing e se relacionar nas mídias sociais nos dias de hoje. É incrível se dar conta de como a maioria das pessoas usam essas poderosas ferramentas da maneira errada. Leitura obrigatória para todos encarregados de postar qualquer coisa em um perfil social da empresa.<br>
+    <br>
+
+    <li><a href="http://www.amazon.com/To-Sell-Is-Human-Surprising/dp/1594631905" target="_blank">To Sell is Human</a>, Daniel H. Pink</li>
+    Vender não é sobre fechar negócios e tirar lucro, mas sim sobre ajudar pessoas a satisfazerem as suas necessidades. Você precisa entender isso para conseguir oferecer a melhor oferta que você puder para seus clientes. Daniel nos dá uma visão atualizada no processo de vendas em To Sell Is Human. Mesmo se você pensar que não está diretamente envolvido no setor comercial, vale a leitura. Cedo ou tarde você vai perceber que você está sempre vendendo.
+</ul>
+
+
+<h2>Product Design</h2>
+
+
+<ul>
+    <li><a href="http://www.amazon.com/Universal-Principles-Design-William-Lidwell/dp/1592530079" target="_blank">Universal Principles of Design</a>, William Lidwell, Kritina Holden, Jill Butler</li>
+    Design não necessariamente é sobre a aparência de alguma coisa, mas em como funciona. Quando seu trabalho envolve qualquer tipo de produto ou serviço, é importante saber os fundamentos de design, e esse livro nos dá tudo que precisamos para iniciar. 100 conceitos de design, explicados e ilustrados.<br>
+    <br>
+
+    <li><a href="http://www.amazon.com/Change-Design-Transforms-Organizations-Innovation/dp/0061766089" target="_blank">Change By Design</a>, Tim Browns</li>
+    Quando você desenvolve uma nova ideia, é muito fácil de se encontrar sem nenhuma inspiração ou ficar trancando em algum ponto. Change By Design introduz a ideia do Design Thinking, uma aproximação humana para a resolução de problemas, que ajuda você a desenvolver qualquer ideia de uma maneira mais criativa.<br>
+    <br>
+
+
+    <li><a href="http://www.amazon.com/Things-Designer-People-Voices-Matter/dp/0321767535" target="_blank">100 Things Every Designer Needs to Know About People</a>, Susan Weinschenk</li>
+    Desenvolver alguma coisa puramente baseado na estética pode não funcionar tão bem quando você imagina que funcione. Nesse livro Susan explica a psicologia por trás do design que você precisa saber quando estiver criando algo, de imagens a textos.
+</ul>
+
+
+<p>Esses 9 livros foram muito úteis para mim e me deram ótimas ideias em como eu trabalho com negócios, com meus colegas de trabalho e com meus clientes. Espero que eles possam lhe ajudar com alguns pontos de vista diferentes também. Você tem alguma recomendação de livros bons sobre negócios? Me conte no bruno.pazzim@codeland.com.br!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A Maneira Certa De Usar a Sua Energia]]></title>
